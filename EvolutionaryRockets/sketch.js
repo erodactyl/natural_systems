@@ -40,6 +40,10 @@ function setup() {
   });
 }
 
+function mouseClicked() {
+  pointPos = createVector(mouseX, mouseY);
+}
+
 function draw() {
   background(220);
   circle(pointPos.x, pointPos.y, 15);
